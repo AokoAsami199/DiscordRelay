@@ -1,13 +1,7 @@
 <?php
-/*
- * MCPEDiscordRelay
- * Developer: Nomadjimbob
- * Website: https://github.com/nomadjimbob/MCPEDiscordRelay
- * Licensed under GNU GPL 3.0 (https://github.com/nomadjimbob/MCPEDiscordRelay/blob/master/LICENSE)
- */
 declare(strict_types=1);
 
-namespace nomadjimbob\MCPEDiscordRelay;
+namespace AokoAsami199\DiscordRelay;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -38,7 +32,6 @@ class Main extends PluginBase implements Listener {
 	public function onEnable() : void{
 		$this->saveDefaultConfig();
 		$this->reloadConfig();
-		$this->getLogger()->info("Plugin has been Enabled");
 
 		if($this->getConfig()->get("enabled")) {
 			$this->initTasks();
@@ -59,7 +52,7 @@ class Main extends PluginBase implements Listener {
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch($command->getName()){
 			case "version":
-				$sender->sendMessage("2.0.0");
+				$sender->sendMessage("1.0.0");
 				return true;
 			default:
 				return false;
