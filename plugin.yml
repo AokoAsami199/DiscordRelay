@@ -1,0 +1,15 @@
+name: DiscordRelay
+main: AokoAsami199\DiscordRelay\Main
+version: 1.0.0
+api: 4.0.0
+author: AokoAsami199
+description: Send console to a discord server
+commands:
+ version:
+  description: Version command
+  usage: "/version"
+  permission: discordrelay.command.version
+permissions:
+ discordrelay.command.version:
+  description: "Shows the version of the plugin"
+  default: true

@@ -1,0 +1,22 @@
+enabled: true
+# The discord webhook URL
+discord_webhook_url: ""	
+# The discord username
+discord_webhook_name: "DiscordRelay"
+discord_webhook_override: false
+# Delay in updating discord
+discord_webhook_refresh: 10	
+# Send console to Discord
+send_console: true
+# Tell when a player joins/leaves the server
+show_player_events: true 
+# Pinging from Minecraft chat in discord
+enable_pings: true
+# Embed title to use in the webhook
+discord_webhook_title: "" 
+# Embed description to use in the webhook
+discord_webhook_description: "" 
+# Embed color to use in the webhook
+discord_webhook_color: "" 
+# Embed footer to use in the webhook
+discord_webhook_footer: ""
