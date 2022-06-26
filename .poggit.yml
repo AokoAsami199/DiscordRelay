@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/AokoAsami199/DiscordRelay
+build-by-default: true
+branches:
+- main
+projects:
+  DiscordRelay:
+    path: ""
+...
