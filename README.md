@@ -1,4 +1,4 @@
-<img src="https://sparkcdnwus2.azureedge.net/sparkimageassets/XPDC2RH70K22MN-08afd558-a61c-4a63-9171-d3f199738e9f" width="50%">
+<img src="https://i0.wp.com/www.interhacktives.com/wp-content/uploads/2022/02/Discord_IAP_KeyVisuals_Header_02.jpg?resize=1024%2C512&ssl=1" width="100%">
 
 # DiscordRelay
 
